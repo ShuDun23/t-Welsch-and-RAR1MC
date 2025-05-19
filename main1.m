@@ -1,4 +1,9 @@
 %% Recover a single image and show it
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%          Hao Nan Sheng, Zhi-Yong Wang, Hing Cheung So           %
+%    Robust Rank-One Matrix Completion via Explicit Regularizer   %
+% IEEE Transactions on Neural Networks and Learning Systems, 2025 %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 close all; clear; clc
 %% Initialization
 PSNR = [];
@@ -120,7 +125,7 @@ for kk=1:K % Monte Carlo
 
     %% AROMC-HOW  unknown rank/robust
     tic
-    [X_1,Y1_RMSE1,real_RMSE,peaksnr1,U1,V1,NRE1,PMD] = RAR1MC(M, M_Omega, array_Omega, maxiter, xi1, xi2);
+    [X_1,Y1_RMSE1,real_RMSE,peaksnr1,U1,V1,NRE1] = RAR1MC(M, M_Omega, array_Omega, maxiter, xi1, xi2);
     toc;
     t_1=[t_1 toc];
     peaksnr1_max = [peaksnr1_max psnr(X_1, M)];

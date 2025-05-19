@@ -1,4 +1,9 @@
-function [Out_X, Y1_RMSE,Y2_RMSE,peaksnr,U1,V1,NRE,PMD] = RAR1MC(M, M_Omega, array_Omega, maxiter, xi1, xi2)
+function [Out_X, Y1_RMSE, Y2_RMSE, peaksnr, U1, V1, NRE] = RAR1MC(M, M_Omega, array_Omega, maxiter, xi1, xi2)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%          Hao Nan Sheng, Zhi-Yong Wang, Hing Cheung So           %
+%    Robust Rank-One Matrix Completion via Explicit Regularizer   %
+% IEEE Transactions on Neural Networks and Learning Systems, 2025 %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%% INPUTS %%%%%%%%%%%%%%%%
 % M - true data
 % M_Omega - observed data with missing entries
@@ -7,6 +12,7 @@ function [Out_X, Y1_RMSE,Y2_RMSE,peaksnr,U1,V1,NRE,PMD] = RAR1MC(M, M_Omega, arr
 % maxiter - maximum iteration number
 % xi1, xi2 - two positive constants satisfying xi1 >= xi2/sqrt(2);
 %%%%%%%%%%%%%%%% OUTPUTS %%%%%%%%%%%%%%%%
+% Out_X - recovered matrix
 
 [m,n] = size(M_Omega);
 Y1_RMSE = [];
@@ -26,11 +32,8 @@ sigma = 1;
 
 % tolaerance
 delta = 1e-5;
-xi = 0.001;
 
-PMD = [];
 RE = [];
-SPMD = [];
 for iter = 1 : maxiter % outer iteration
     M_1 = M_2;
     M_Omega = M_1;
@@ -80,7 +83,6 @@ for iter = 1 : maxiter % outer iteration
     U1 = U;
     V1 = V;
     U = [U1 randn(m,1)];
-    % V = randn(iter+1,c);
     V = [V1;randn(1,n)];
 
     X = U1*V1;
