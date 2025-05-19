@@ -15,6 +15,6 @@ All experiments are conducted using MATLAB r2024b.
 
 - In addition, we provide two detailed examples reproducing Fig.5(b) and Fig.6(c).
 
-For detailed hyperparameter settings please refer to the latest paper.
+For detailed hyperparameter settings, please refer to the latest paper.
 
-If you have any question, please feel free to reach out hnsheng2-c@my.cityu.edu.hk
+If you have any questions, please feel free to reach out at [Russell SHENG](hnsheng2-c@my.cityu.edu.hk)
