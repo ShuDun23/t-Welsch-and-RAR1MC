@@ -3,6 +3,10 @@ Code for ___Robust Rank-One Matrix Completion via Explicit Regularizer___ accept
 > **Abstract**  
 > In robust matrix completion (MC), Welsch function, also referred to as the maximum correntropy criterion with Gaussian kernel, has been widely employed. However, it suffers from the drawback of down-weighing normal data. This work is the first to uncover the ___explicit regularizer___ (ER) for the Welsch function based on the multiplicative form of half-quadratic minimization. Leveraging this discovery, we develop a new function called ___t-Welsch___, also with ER, which provides unity weight to normal data and exhibits stronger robustness against large-magnitude outliers compared to Huber's weight. We apply the t-Welsch to rank-one matching pursuit, enabling accurate and robust low-rank matrix recovery without the need of rank information and singular value decomposition. The resultant MC algorithm ___RAR1MC___ is realized via block coordinate descent, whose analyses of convergence and computational complexity are produced. Experiments are conducted using synthetic random data, as well as real-world images with salt-and-pepper noise and multiple-input multiple-output radar signals in the presence of Gaussian mixture disturbances. In all three scenarios, the proposed algorithm outperforms the state-of-the-art robust MC methods in terms of recovery accuracy.
 
+<img src="https://github.com/ShuDun23/t-Welsch-and-RAR1MC/blob/main/figures/Fig8.png" width="500px">
+
+<img src="https://github.com/ShuDun23/t-Welsch-and-RAR1MC/blob/main/figures/table1.png" width="500px">
+
 All experiments are conducted using MATLAB r2024b.
 
 - To reproduce Figure 8, please run main1.m
