@@ -9,11 +9,19 @@ Code for ___Robust Rank-One Matrix Completion via Explicit Regularizer___ accept
 
 All experiments are conducted using MATLAB r2024b.
 
+For real world images:
+
 - To reproduce Figure 8, please run main1.m
 
 - To reproduce Table III & IV, please run main2.m
 
-- In addition, we provide two detailed examples reproducing Fig.5(b) and Fig.6(c).
+For synthetic random data:
+
+- we provide two detailed examples for reproducing Fig.5(b) and Fig.6(c). Please find main_sigma1.m and main_sigma2.m, respectively.
+
+For MIMO radar data:
+
+- ss
 
 For detailed hyperparameter settings, please refer to the latest paper.
 
