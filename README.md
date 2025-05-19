@@ -25,4 +25,4 @@ For MIMO radar data:
 
 For detailed hyperparameter settings, please refer to the latest paper.
 
-If you have any questions, please feel free to reach out Russell SHENG @ hnsheng2-c@my.cityu.edu.hk
+Should you have any questions, please feel free to reach out Russell SHENG @ hnsheng2-c@my.cityu.edu.hk
