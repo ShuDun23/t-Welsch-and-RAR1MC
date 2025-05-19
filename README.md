@@ -19,10 +19,6 @@ For synthetic random data:
 
 - we provide two detailed examples for reproducing Fig.5(b) and Fig.6(c). Please find main_sigma1.m and main_sigma2.m, respectively.
 
-For MIMO radar data:
-
-- ss
-
 For detailed hyperparameter settings, please refer to the latest paper.
 
-Should you have any questions, please feel free to reach out Russell SHENG @ hnsheng2-c@my.cityu.edu.hk
+Should you have any questions, please feel free to reach out to Russell SHENG @ hnsheng2-c@my.cityu.edu.hk
