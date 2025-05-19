@@ -17,4 +17,4 @@ All experiments are conducted using MATLAB r2024b.
 
 For detailed hyperparameter settings, please refer to the latest paper.
 
-If you have any questions, please feel free to reach out at [Russell SHENG](hnsheng2-c@my.cityu.edu.hk)
+If you have any questions, please feel free to reach out Russell SHENG @ (hnsheng2-c@my.cityu.edu.hk)
