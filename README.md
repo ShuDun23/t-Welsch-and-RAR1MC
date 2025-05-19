@@ -26,6 +26,8 @@ Should you have any questions, please feel free to reach out to Russell SHENG @ 
 ## Citation
 If you use t-Welsch & RAR1MC or this codebase in your work, please cite:
 
-```Hao Nan Sheng, Zhi-Yong Wang, Hing Cheung So, Robust Rank-One Matrix Completion via Explicit Regularizer, IEEE Transactions on Neural Networks and Learning Systems, 2025```
+```
+Hao Nan Sheng, Zhi-Yong Wang, Hing Cheung So, Robust Rank-One Matrix Completion via Explicit Regularizer, IEEE Transactions on Neural Networks and Learning Systems, 2025
+```
 
 
