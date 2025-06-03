@@ -19,7 +19,7 @@ For synthetic random data:
 
 - we provide two detailed examples for reproducing Fig.5(b) and Fig.6(c). Please find `main_sigma1.m` and `main_sigma2.m`, respectively.
 
-For detailed hyperparameter settings, please refer to the latest paper.
+For detailed hyperparameter settings, please refer to the [latest paper](https://ieeexplore.ieee.org/document/11021226).
 
 Should you have any questions, please feel free to reach out to Russell SHENG @ hnsheng2-c@my.cityu.edu.hk
 
