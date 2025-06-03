@@ -21,7 +21,7 @@ For synthetic random data:
 
 For detailed hyperparameter settings, please refer to the [latest paper](https://ieeexplore.ieee.org/document/11021226).
 
-Should you have any questions, please feel free to open a new issue or reach out to Russell SHENG @ hnsheng2-c@my.cityu.edu.hk
+Should you have any questions, please feel free to open a new [issue](https://github.com/ShuDun23/t-Welsch-and-RAR1MC/issues) or reach out to Russell SHENG @ hnsheng2-c@my.cityu.edu.hk
 
 ## Citation
 If you use t-Welsch & RAR1MC or this codebase in your work, please cite:
